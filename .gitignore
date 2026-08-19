@@ -10,3 +10,4 @@ public/v0.2/
 public/qa/
 *.png
 !public/**/*.png
+!docs/**/*.png
