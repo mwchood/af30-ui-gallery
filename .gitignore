@@ -1,0 +1,12 @@
+node_modules/
+dist/
+output/
+tmp/
+.playwright-cli/
+.ui-restore/
+design-system/
+qa/
+public/v0.2/
+public/qa/
+*.png
+!public/**/*.png

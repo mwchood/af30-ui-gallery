@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+:root {
+  --af-canvas-w: 1280;
+  --af-canvas-h: 720;
+  --af-color-bg: #000000;
+  --af-color-surface: #1a1a1a;
+  --af-color-surface-raised: #292929;
+  --af-color-surface-soft: #424242;
+  --af-color-text: #ffffff;
+  --af-color-text-secondary: #b8b8b8;
+  --af-color-text-muted: #737373;
+  --af-color-line: #424242;
+  --af-color-primary: #ffffff;
+  --af-color-primary-pressed: #d9d9d9;
+  --af-color-primary-text: #1a1a1a;
+  --af-color-accent: var(--af-color-primary);
+  --af-color-accent-pressed: var(--af-color-primary-pressed);
+  --af-color-accent-soft: #292929;
+  --af-color-success: #ffffff;
+  --af-color-warning: #db4f4f;
+  --af-color-danger: #db4f4f;
+  --af-space-1: 4px;
+  --af-space-2: 8px;
+  --af-space-3: 12px;
+  --af-space-4: 16px;
+  --af-space-6: 24px;
+  --af-space-8: 32px;
+  --af-space-10: 40px;
+  --af-space-12: 48px;
+  --af-space-16: 64px;
+  --af-radius-sm: 4px;
+  --af-radius-md: 8px;
+  --af-radius-lg: 12px;
+  --af-radius-dialog: 16px;
+  --af-radius-feature: 20px;
+  --af-radius-pill: 999px;
+  --af-motion-fast: 120ms;
+  --af-motion-normal: 200ms;
+  --af-motion-slow: 320ms;
+  --af-ease-standard: cubic-bezier(.2, .8, .2, 1);
+  --af-font-family: "Inter", Arial, sans-serif;
+  --af-font-data-family: "Inter", Arial, sans-serif;
+  --af-font-display: 96px;
+  --af-font-hero: 110px;
+  --af-font-h1: 32px;
+  --af-font-feature-title: 48px;
+  --af-font-h2: 24px;
+  --af-font-body: 20px;
+  --af-font-label: 16px;
+  --af-font-caption: 16px;
+  --af-line-label: 24px;
+  --af-line-body-3: 28px;
+  --af-line-body-2: 34px;
+  --af-line-body-1: 34px;
+  --af-line-heading: 44px;
+  --af-line-feature-title: 56px;
+  --af-line-data-large: 112px;
+  --af-line-data-hero: 132px;
+}
